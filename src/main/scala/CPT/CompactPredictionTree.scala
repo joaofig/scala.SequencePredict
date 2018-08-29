@@ -1,3 +1,5 @@
+package CPT
+
 class CompactPredictionTree[T](val item: T, val parent: CompactPredictionTree[T]) {
   var children: List[CompactPredictionTree[T]] = List()
   val support: Int = 0

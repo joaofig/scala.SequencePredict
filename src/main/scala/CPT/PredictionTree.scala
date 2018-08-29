@@ -1,0 +1,5 @@
+package CPT
+
+class PredictionTree {
+
+}
